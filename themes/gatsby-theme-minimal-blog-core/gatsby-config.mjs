@@ -40,7 +40,7 @@ const config = (themeOptions) => {
             {
               resolve: `gatsby-remark-images`,
               options: {
-                maxWidth: 960,
+                maxWidth: 60,
                 quality: 90,
                 linkImagesToOriginal: false,
                 backgroundColor: `transparent`,
