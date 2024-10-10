@@ -40,11 +40,15 @@ const config = (themeOptions) => {
             {
               resolve: `gatsby-remark-images`,
               options: {
-                maxWidth: 60,
+                maxWidth: 760,
                 quality: 90,
                 linkImagesToOriginal: false,
                 backgroundColor: `transparent`,
               },
+            },
+            {
+              resolve: `gatsby-remark-copy-linked-files`,
+              options: { destinationDir: `static`, },
             },
           ],
         },
